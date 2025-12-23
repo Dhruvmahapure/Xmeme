@@ -1,0 +1,99 @@
+.App {
+  min-height: 100vh;
+  background: #040404;
+  color: #fef4f6;
+}
+
+.App-header {
+  padding: 24px 16px 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.App-subtitle {
+  margin: 4px 0 0;
+  color: #9b2d2d;
+  text-align: center;
+  font-size: 14px;
+}
+
+.App-shell {
+  max-width: 470px;
+  margin: 0 auto;
+  padding: 0 0 32px;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.App-panel {
+  background: #e49cef;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.App-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.App-panel h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.App-reload {
+  background: transparent;
+  color: #0b0b0b;
+  border: 1px solid #e2dbdb;
+  border-radius: 6px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.App-reload:hover:not(:disabled) {
+  background: #f4f4f4;
+}
+
+.App-reload:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.App-error {
+  background: #fff0f0;
+  color: #b00020;
+  border: 1px solid #f5c2c2;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.App-brand {
+  text-align: center;
+}
+
+.App-brand h1 {
+  margin: 0;
+}
+
+.App-brand .App-subtitle {
+  margin-top: 6px;
+}
