@@ -1,40 +1,50 @@
-# Full Stack Application (React + Spring Boot)
+XMeme – Full Stack Meme Application
 
-This is a **full-stack web application** built using **React** for the frontend and **Spring Boot** for the backend.  
-The project is organized using **separate branches** for better clarity and maintainability.
+XMeme is a full-stack web application built using Spring Boot, React, and MongoDB.
+It allows users to create, view, update, and delete memes through RESTful APIs.
 
----
+🌿 Branch Structure
 
-## 🧩 Project Structure (Branch-wise)
+main → React frontend
 
-### 🌐 Frontend
-- **Branch:** `master`
-- **Technology:** React.js
-- Contains all UI components, pages, and frontend logic.
-- Handles user interaction and communicates with backend APIs.
+backend → Spring Boot backend
 
-### ⚙️ Backend
-- **Branch:** `backend`
-- **Technology:** Spring Boot
-- Implements REST APIs, business logic, and database interactions.
-- Handles authentication, validation, and core application logic.
+🚀 Features
 
----
+Create, read, update & delete memes
 
-## 🚀 Technologies Used
+Fetch latest 100 memes
 
-### Frontend
-- React.js
-- JavaScript (ES6+)
-- HTML5, CSS3
-- Axios / Fetch API
+Duplicate meme detection
 
-### Backend
-- Spring Boot
-- Spring Web
-- Spring Data JPA
-- Spring Security (if applicable)
-- MySQL / MongoDB (based on implementation)
-- Maven
+REST API with proper HTTP status codes
 
----
+MongoDB persistence
+
+Responsive React UI
+
+🛠 Tech Stack
+
+Backend: Spring Boot, Java, MongoDB
+
+Frontend: React, Axios
+
+Database: MongoDB
+
+▶ Run Project
+
+Backend
+
+git checkout backend
+./gradlew bootRun
+
+
+Frontend
+
+git checkout main
+npm install
+npm start
+
+👨‍💻 Author
+
+Dhruv Mahapure
