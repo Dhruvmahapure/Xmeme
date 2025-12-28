@@ -9,6 +9,8 @@ main → React frontend
 
 backend → Spring Boot backend
 
+Security → backend with spring security
+
 🚀 Features
 
 Create, read, update & delete memes
